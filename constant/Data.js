@@ -1,4 +1,4 @@
-export  const  Data = [
+const  Data = [
         {
           avtar :require("../assets/avtar.png"),
           name:"Steven Middleton",
@@ -28,7 +28,7 @@ export  const  Data = [
           time:"36 d"
         },
         {
-          avtar :require("../assets/avtar.png"),
+          avtar :require("../assets/group.png"),
           name:"Summer Camp",
           image:"",
           detail:'Michael: Broadcast 1:56',
@@ -56,3 +56,5 @@ export  const  Data = [
           time:"36 d"
         },
       ]
+
+    export default Data    

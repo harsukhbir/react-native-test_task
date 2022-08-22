@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
         "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
@@ -16,8 +8,8 @@
         "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_avtar.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_avtar.png"
     },
     {
         "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
@@ -28,6 +20,10 @@
         "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_phonecall.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_phonecall.png"
+    },
+    {
         "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -36,12 +32,52 @@
         "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_sidemenu.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_sidemenu.png"
     },
     {
         "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_message.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_message.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_search.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_search.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_messagebox.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_messagebox.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_appsetting.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_appsetting.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_group.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_group.png"
+    },
+    {
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -68,7 +104,7 @@
         "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
-        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+        "merged": "/Users/rajeshkumar/Desktop/Test_task /android/app/build/intermediates/merged_res/debug/drawable-mdpi_assets_user.png.flat",
+        "source": "/Users/rajeshkumar/Desktop/Test_task /android/app/src/main/res/drawable-mdpi/assets_user.png"
     }
 ]

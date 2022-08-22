@@ -4,29 +4,23 @@ import {
   View,
   FlatList,
   Image,
-  TextInput,
   TouchableOpacity,
 } from "react-native";
-import String from "../constant/String"
 import Styles from "../constant/Styles"
 import Data from "../constant/Data"
+import FabIcon from "../component/FabIcon";
+import Header from "../component/Header";
+
 export default function Message() {
-
-
-
+  
   return(
     <View style={Styles.container}>
-    <View style={Styles.topBar}>
-      <Image source={require("../assets/menu.png")} style={Styles.menuImage}/>
-      <Text style={Styles.msgText}> {String.all}</Text>
-      <Image source={require("../assets/sear.png")} style={Styles.searchIcon}/>
-    </View>
-    <View style={Styles.underLine}/>
+    <Header/>
    <FlatList
     scrollEnabled={true}
     showsVerticalScrollIndicator={false}
     data={Data}
-    renderItem={({item, index}) => {
+    renderItem={({item}) => {
      return (
       <View style={Styles.flatListContainer}>
       <TouchableOpacity>
@@ -38,7 +32,7 @@ export default function Message() {
      </View>
       </View>
        <View style={Styles.detailView}>
-        <Image source={require("../assets/phone.png")} style={Styles.phoneImage}/>
+        <Image source={require("../assets/phoneCall.png")} style={Styles.phoneImage}/>
        <Text style={Styles.detailText}>{item.detail}</Text>
        </View> 
       </TouchableOpacity>
@@ -47,9 +41,7 @@ export default function Message() {
      );
     }}
    />
-<TouchableOpacity style={Styles.fabIcon}>
-  <Image source={require("../assets/message.png")} style={Styles.msgImage} />
-</TouchableOpacity>
+   <FabIcon/>
     </View>
   );
 }

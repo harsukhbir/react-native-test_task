@@ -1,5 +1,6 @@
 import {StyleSheet} from 'react-native';
 import Colors from "../constant/Colors"
+import { moderateScale } from 'react-native-size-matters';
 
 export default StyleSheet.create({
  container: {
@@ -12,7 +13,6 @@ topBar:{
   marginTop:15,
 },
 menuImage:{
-  backgroundColor:Colors.white,
   height:20,
   width:20,
   left:20
@@ -23,9 +23,8 @@ msgText:{
   bottom:5
 },
 searchIcon:{
-  backgroundColor:Colors.white,
-  height:20,
-  width:20,
+  height:18,
+  width:18,
   right:10
 },
 underLine:{
@@ -90,12 +89,39 @@ msgImage:{
   alignSelf:'center',
   top:8
 },
-
+CallContainer:{
+  backgroundColor:Colors.lightBlack,
+  flex: 1,
+  justifyContent: "center",
+},
 mainContainer:{
  backgroundColor:Colors.lightBlack,
  flex: 1,
  justifyContent: "center",
 alignItems: "center"
-}
+},
+focusStyle: {
+  position: 'absolute',
+  backgroundColor:Colors.purple,
+  top: 7,
+  width: moderateScale(40),
+  height: moderateScale(40),
+  borderRadius: moderateScale(20),
+  alignItems: 'center',
+  justifyContent: 'center',
+ },
+ unfocusStyle: {
+  position: 'absolute',
+  top: 7,
+  width: moderateScale(40),
+  height: moderateScale(40),
+  borderRadius: moderateScale(20),
+  alignItems: 'center',
+  justifyContent: 'center',
+ },
+ image: {
+  width: moderateScale(20),
+  height: moderateScale(20),
+ },
 
         })
