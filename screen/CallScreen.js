@@ -6,11 +6,12 @@ import Personal from '../component/PersonalChat';
 import Chat from '../component/Chat';
 import Group from '../component/Group';
 import Header from '../component/Header';
+import String from '../constant/String';
 
 const CallScreen = () => {
   return (
     <View style={Styles.CallContainer}>
-    <Header/>
+    <Header text={String.calls}/>
    <ScrollView>
    <Chat/>
    <Personal/>

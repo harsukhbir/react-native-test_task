@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import {Image,View} from 'react-native';
+import {Image,View,Text} from 'react-native';
 import Message from "./screen/MessageScreen";
 import CallScreen from "./screen/CallScreen";
 import Profile from './screen/ProfileScreen';
@@ -15,126 +15,113 @@ const Tab = createMaterialBottomTabNavigator();
 function MyTabs() {
 
   return (
-    <View style={{flex:1}}>
+<View style={{flex:1}}>
 <Tab.Navigator
- activeColor={Colors.purple}
-    barStyle={{ backgroundColor: Colors.lightBlack}}
+ activeColor={Colors.lightBlack}
+ inactiveColor={Colors.lightBlack}
+    barStyle={{ backgroundColor: Colors.lightBlack }}
      screenOptions={{
       headerShown: false,
-      tabBarStyle: {
-       position: 'absolute',
-       backgroundColor: Colors.lightBlack,
-       height: 60,
-      },
-      tabBarActiveBackgroundColor:Colors.purple,
-      tabBarInactiveBackgroundColor: Colors.purple,
-     }}>
+      tabBarActiveBackgroundColor:Colors.white,
+      tabBarInactiveBackgroundColor: Colors.white,
+     }}
+>
 
 <Tab.Screen
-      name={"."}
-      component={Message}
-      options={{
-       tabBarActiveTintColor: 'transparent',
-       tabBarInactiveTintColor: 'transparent',
-       tabBarIcon: ({focused}) => (
-        <View style={focused ? Styles.focusStyle : Styles.unfocusStyle}>
-         <Image
-          source={
-           focused
-            ? require("./assets/messageBox.png")
-            : require('./assets/messageBox.png')
-          }
-          style={Styles.image}
-         />
-        </View>
-       ),
-      }}
-     />
+        name="."
+        component={Message}
+        options={{
+          tabBarIcon: ({focused}) => {
+            return focused ? (
+              <View style={Styles.labelFocusedContainer}>
+                <Image style={Styles.image} source={require("./assets/selectMessage.png")}/>
+              </View>
+            ) : (
+              <View style={Styles.labelContainer}>
+                  <Image style={Styles.image} source={require('./assets/messageBox.png')}/>
+              </View>
+            );
+          },
+        }}
+      />
 
 <Tab.Screen
-      name={".."}
-      component={CallScreen}
-      options={{
-       tabBarActiveTintColor: 'transparent',
-       tabBarInactiveTintColor: 'transparent',
-       tabBarIcon: ({focused}) => (
-        <View style={focused ? Styles.focusStyle : Styles.unfocusStyle}>
-         <Image
-          source={
-           focused
-            ? require("./assets/phoneCall.png")
-            : require('./assets/phoneCall.png')
-          }
-          style={Styles.image}
-         />
-        </View>
-       ),
-      }}
-     />
+        name=".."
+        component={CallScreen}
+        options={{
+          tabBarIcon: ({focused}) => {
+            return focused ? (
+              <View style={Styles.labelFocusedContainer}>
+                <Image style={Styles.image} source={require("./assets/selectCall.png")}/>
+              </View>
+            ) : (
+              <View style={Styles.labelContainer}>
+                  <Image style={Styles.image} source={require('./assets/phoneCall.png')}/>
+              </View>
+            );
+          },
+        }}
+      />
 
 <Tab.Screen
-      name={"..."}
-      component={Profile}
-      options={{
-       tabBarActiveTintColor: 'transparent',
-       tabBarInactiveTintColor: 'transparent',
-       tabBarIcon: ({focused}) => (
-        <View style={focused ? Styles.focusStyle : Styles.unfocusStyle}>
-         <Image
-          source={
-           focused
-            ? require("./assets/user.png")
-            : require('./assets/user.png')
-          }
-          style={Styles.image}
-         />
-        </View>
-       ),
-      }}
-     />
+        name="..."
+        component={Profile}
+        options={{
+          tabBarIcon: ({focused}) => {
+            return focused ? (
+              <View style={Styles.labelFocusedContainer}>
+                <Image style={Styles.image} source={require("./assets/selectUser.png")}/>
+              </View>
+            ) : (
+              <View style={Styles.labelContainer}>
+                  <Image style={Styles.image} source={require("./assets/user.png")}/>
+              </View>
+            );
+          },
+        }}
+      />
+
 
 <Tab.Screen
-      name={","}
-      component={Group}
-      options={{
-       tabBarActiveTintColor: 'transparent',
-       tabBarInactiveTintColor: 'transparent',
-       tabBarIcon: ({focused}) => (
-        <View style={focused ? Styles.focusStyle : Styles.unfocusStyle}>
-         <Image
-          source={
-           focused
-            ? require("./assets/group.png")
-            : require('./assets/group.png')
-          }
-          style={Styles.image}
-         />
-        </View>
-       ),
-      }}
-     />
+        name=","
+        component={Group}
+        options={{
+          tabBarIcon: ({focused}) => {
+            return focused ? (
+              <View style={Styles.labelFocusedContainer}>
+                <Image style={Styles.image} source={require("./assets/selectGroup.png")}/>
+              </View>
+            ) : (
+              <View style={Styles.labelContainer}>
+                  <Image style={Styles.image} source={require("./assets/group.png")}/>
+              </View>
+            );
+          },
+        }}
+      />
+
 
 <Tab.Screen
-      name={"_"}
-      component={Setting}
-      options={{
-       tabBarActiveTintColor: 'transparent',
-       tabBarInactiveTintColor: 'transparent',
-       tabBarIcon: ({focused}) => (
-        <View style={focused ? Styles.focusStyle : Styles.unfocusStyle}>
-         <Image
-          source={
-           focused
-            ? require("./assets/appSetting.png")
-            : require('./assets/appSetting.png')
-          }
-          style={Styles.image}
-         />
-        </View>
-       ),
-      }}
-     />
+        name="_"
+        component={Setting}
+        options={{
+          tabBarIcon: ({focused}) => {
+            return focused ? (
+              <View style={Styles.labelFocusedContainer}>
+                <Image style={Styles.image} source={require("./assets/selectSettings.png")}/>
+              </View>
+            ) : (
+              <View style={Styles.labelContainer}>
+                  <Image style={Styles.image} source={require("./assets/appSetting.png")}/>
+              </View>
+            );
+          },
+        }}
+      />
+
     </Tab.Navigator>
+    <View style={{  width: '100%',
+  borderBottomWidth: 1, borderColor:Colors.gray,bottom:"9.2%",position:'absolute'}}/>
     </View>
   );
 }

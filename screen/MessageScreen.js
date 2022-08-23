@@ -9,13 +9,14 @@ import {
 import Styles from "../constant/Styles"
 import Data from "../constant/Data"
 import FabIcon from "../component/FabIcon";
+import String from "../constant/String";
 import Header from "../component/Header";
 
 export default function Message() {
   
   return(
     <View style={Styles.container}>
-    <Header/>
+    <Header text={String.all}/>
    <FlatList
     scrollEnabled={true}
     showsVerticalScrollIndicator={false}

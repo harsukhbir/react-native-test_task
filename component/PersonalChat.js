@@ -6,6 +6,7 @@ import {
     TouchableOpacity,
   } from "react-native";
 import Styles from "../constant/Styles";
+import String from "../constant/String";
 const Personal =()=>{
 return(
 <View>
@@ -13,11 +14,11 @@ return(
 <View style={Styles.cardView}>
 <Image source={require("../assets/avtar.png")} style={Styles.avtar}/>
 <View style={Styles.textView}>
-<Text style={[Styles.nameText,{marginTop:10}]}>Laura Smith</Text>
+<Text style={[Styles.nameText,{marginTop:10}]}>{String.laura}</Text>
 </View>
 </View>
 </TouchableOpacity>
-<View style={[Styles.underLine,{marginTop:15}]}/>
+<View style={[Styles.underLine,{marginTop:20}]}/>
 </View>
     )
 }

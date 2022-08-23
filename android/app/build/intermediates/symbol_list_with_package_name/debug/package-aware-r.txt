@@ -1348,10 +1348,16 @@ drawable abc_vector_test
 drawable assets_appsetting
 drawable assets_avtar
 drawable assets_group
+drawable assets_groupimage
 drawable assets_message
 drawable assets_messagebox
 drawable assets_phonecall
 drawable assets_search
+drawable assets_selectcall
+drawable assets_selectgroup
+drawable assets_selectmessage
+drawable assets_selectsettings
+drawable assets_selectuser
 drawable assets_sidemenu
 drawable assets_user
 drawable autofill_inline_suggestion_chip_background

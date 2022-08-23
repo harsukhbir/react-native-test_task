@@ -7,14 +7,14 @@ import {
 } from "react-native";
 import Styles from "../constant/Styles";
 import String from "../constant/String";
-const Header =() => {
+const Header =(props) => {
     return(
       <View>
         <View style={Styles.topBar}>
         <TouchableOpacity>
         <Image source={require("../assets/sideMenu.png")} style={Styles.menuImage}/>
         </TouchableOpacity>
-        <Text style={Styles.msgText}> {String.all}</Text>
+        <Text style={Styles.msgText}>{props.text}</Text>
        <TouchableOpacity>
        <Image source={require("../assets/search.png")} style={Styles.searchIcon}/>
        </TouchableOpacity>

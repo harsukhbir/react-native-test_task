@@ -10,25 +10,25 @@ export default StyleSheet.create({
 topBar:{
  flexDirection:'row',
  justifyContent:"space-between",
-  marginTop:15,
+  marginTop:moderateScale(15),
 },
 menuImage:{
-  height:20,
-  width:20,
-  left:20
+  height:moderateScale(20),
+  width:moderateScale(20),
+  left:moderateScale(20)
 },
 msgText:{
   color:Colors.white,
   right:20,fontSize:22,
-  bottom:5
+  bottom:moderateScale(5)
 },
 searchIcon:{
-  height:18,
-  width:18,
-  right:10
+  height:moderateScale(18),
+  width:moderateScale(18),
+  right:moderateScale(15)
 },
 underLine:{
-  height:1,
+  height:moderateScale(1),
   backgroundColor:Colors.gray,
   width:"100%"
 },
@@ -38,20 +38,20 @@ flatListContainer:{
 },
 cardView:{
 flexDirection:'row',
-marginLeft:11
+marginLeft:moderateScale(11)
 },
 avtar:{
   borderRadius:50/2,
-  height:40,
-  width:40,
-  top:10
+  height:moderateScale(37),
+  width:moderateScale(37),
+  top:moderateScale(11)
 },
 textView:{  
   alignSelf: 'center',
   flexDirection: 'row',
-  width:240,
+  width:moderateScale(252),
   justifyContent: 'space-between',
-  left:12
+  left:moderateScale(13)
 },
 nameText:{color:Colors.white,fontSize:18,},
 timeText:{color:Colors.gray,left:10},
@@ -59,23 +59,23 @@ detailView:{
   flexDirection:'row',
   justifyContent:'center',
   alignContent:'center',
-  right:5
+  right:7
 },
 phoneImage:{
-  height:20,
-  width:20,
-  marginRight:5,
-  bottom:7
+  height:moderateScale(20),
+  width:moderateScale(20),
+  marginRight:moderateScale(5),
+  bottom:moderateScale(7)
 },
 detailText:{
   color:Colors.gray, 
   justifyContent:'center',
-  bottom:7
+  bottom:moderateScale(7)
 },
 fabIcon:{
   backgroundColor:Colors.purple,
-   height:42,
-   width:42,
+   height:moderateScale(42),
+   width:moderateScale(42),
    borderRadius:50/2, 
    position:"absolute",
    top:"88%",
@@ -84,10 +84,10 @@ fabIcon:{
    left:"80%"
 },
 msgImage:{
-  height:25,
-  width:25,
+  height:moderateScale(25),
+  width:moderateScale(25),
   alignSelf:'center',
-  top:8
+  top:moderateScale(8.5)
 },
 CallContainer:{
   backgroundColor:Colors.lightBlack,
@@ -103,7 +103,7 @@ alignItems: "center"
 focusStyle: {
   position: 'absolute',
   backgroundColor:Colors.purple,
-  top: 7,
+  top: moderateScale(7),
   width: moderateScale(40),
   height: moderateScale(40),
   borderRadius: moderateScale(20),
@@ -122,6 +122,25 @@ focusStyle: {
  image: {
   width: moderateScale(20),
   height: moderateScale(20),
+  top:moderateScale(37)
  },
+
+
+labelFocusedContainer: {
+  alignItems: 'center',
+  width: '170%',
+  borderBottomWidth: 3,
+  borderBottomColor: Colors.purple,
+  bottom:moderateScale(27)
+},
+labelContainer: {
+  alignItems: 'center',
+  width: '100%',
+  bottom:moderateScale(30)
+  
+},
+
+
+
 
         })
